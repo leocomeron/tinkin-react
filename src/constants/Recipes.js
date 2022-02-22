@@ -1,0 +1,78 @@
+export const recipes = [
+  { id: 1, name: "Mixed Berry Melody", review: 3, wasCookedBefore: true },
+  {
+    id: 2,
+    name: "Thai red curry cauliflower soup",
+    review: 2,
+    wasCookedBefore: true,
+  },
+  { id: 3, name: "Crispy spice eggplant", review: 3, wasCookedBefore: true },
+  {
+    id: 4,
+    name: "Pumpkin soup with a twist",
+    review: 5,
+    wasCookedBefore: false,
+  },
+  {
+    id: 5,
+    name: "Charred tofu, corn and asparagus salad",
+    review: 3,
+    wasCookedBefore: true,
+  },
+  {
+    id: 6,
+    name: "One-pan creamy pesto chicken & gnocchi",
+    review: 3,
+    wasCookedBefore: true,
+  },
+  { id: 7, name: "Creamy chicken bake", review: 3, wasCookedBefore: false },
+  {
+    id: 8,
+    name: "French-style chicken and potatoes",
+    review: 3,
+    wasCookedBefore: true,
+  },
+  {
+    id: 9,
+    name: "Braised beef and vegetables",
+    review: 3,
+    wasCookedBefore: true,
+  },
+  {
+    id: 10,
+    name: "Pumpkin, spinach and lentil lasagne",
+    review: 3,
+    wasCookedBefore: true,
+  },
+  { id: 11, name: "Soothing chicken soup", review: 3, wasCookedBefore: true },
+  {
+    id: 12,
+    name: "Cornflake-crumbed chicken with wedges",
+    review: 3,
+    wasCookedBefore: true,
+  },
+  {
+    id: 13,
+    name: "Quick beef enchiladas",
+    review: 3,
+    wasCookedBefore: true,
+  },
+  {
+    id: 14,
+    name: "One-pan creamy pesto chicken & gnocchi",
+    review: 3,
+    wasCookedBefore: true,
+  },
+  {
+    id: 15,
+    name: "Cheesy broccoli bake",
+    review: 3,
+    wasCookedBefore: true,
+  },
+  {
+    id: 16,
+    name: "Lamb shank ragu with pappardelle",
+    review: 3,
+    wasCookedBefore: true,
+  },
+];
