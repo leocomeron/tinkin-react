@@ -4,7 +4,7 @@ import TableRow from "@mui/material/TableRow";
 import Rating from "@mui/material/Rating";
 import styled from "@mui/material/styles/styled";
 
-import WasCookedSwitch from "./Switcher";
+import Switch from "./Switcher";
 
 const recipeStyle = {
   fontFamily: "Poppins",
@@ -41,7 +41,7 @@ const RecipeItem = (props) => {
         <StyledRating value={props.review} readOnly />
       </TableCell>
       <TableCell align="center">
-        <WasCookedSwitch wasCookedBefore={props.wasCookedBefore} />
+        <Switch wasCookedBefore={props.wasCookedBefore} />
       </TableCell>
     </TableRow>
   );

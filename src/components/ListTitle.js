@@ -9,7 +9,7 @@ const titleStyle = {
   fontStyle: "normal",
   color: "#79797A",
   lineHeight: "16px",
-  fontWeight: "bold",
+  fontWeight: 600,
   height: 48,
 };
 

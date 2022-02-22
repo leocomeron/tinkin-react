@@ -25,16 +25,16 @@ const ReciepeList = () => {
         <Filter data={callbackFilterHandler} />
       </div>
       <TableContainer component={Paper}>
-        <Table padding="none" sx={{ minWidth: 1000 }} aria-label="simple table">
+        <Table padding="none" sx={{ minWidth: 1002 }} aria-label="simple table">
           <ListTitle />
           <TableBody>
             {recipes.map((recipe) => {
-              let isMatching =
+              let isFilterOn =
                 (filterInput === "All" && true) ||
                 (filterInput === "Active" && recipe.wasCookedBefore) ||
                 (filterInput === "Inactive" && !recipe.wasCookedBefore);
               return (
-                isMatching && (
+                isFilterOn && (
                   <RecipeItem
                     key={recipe.id}
                     name={recipe.name}
